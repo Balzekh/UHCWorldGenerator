@@ -9,11 +9,11 @@ public final class UHCLogger {
     private UHCLogger() {}
 
     public static void info(String msg) {
-        Bukkit.getLogger().severe(PREFIX + msg);
+        Bukkit.getLogger().info(PREFIX + msg);
     }
 
     public static void success(String msg) {
-        Bukkit.getLogger().severe("§7[§aUHC§7] §a" + msg);
+        Bukkit.getLogger().fine("§7[§aUHC§7] §a" + msg);
     }
 
     public static void error(String msg) {
