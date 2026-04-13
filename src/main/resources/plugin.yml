@@ -1,4 +1,4 @@
-name: UHCGen
+name: UHCWorld
 version: 1.0
-main: fr.mercyuhc.Main
+main: fr.mercyuhc.uhcgen.UHCGenEngine
 author: Balzekh
