@@ -11,7 +11,14 @@ public class WorldFactory {
         creator.generatorSettings(generateWorldSettings());
         creator.environment(World.Environment.NORMAL);
         creator.generateStructures(false);
-        return creator.createWorld();
+
+        World world = creator.createWorld();
+
+        if (GenerationConfig.CAVES_ENABLED) {
+            world.getPopulators().add(new CavePopulator());
+        }
+
+        return world;
     }
 
     private static String generateWorldSettings() {

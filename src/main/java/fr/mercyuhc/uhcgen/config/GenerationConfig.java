@@ -18,7 +18,7 @@ public final class GenerationConfig {
     public static final int RADIUS_ROOFED_FOREST = 400;
 
     /** Rayon du biome Taiga (sapins) */
-    public static final int RADIUS_TAIGA = 500;
+    public static final int RADIUS_TAIGA = 600;
 
     /** Rayon total de la zone plains (terrain plat, nettoyage des arbres vanilla) */
     public static final int RADIUS_PLAINS = 700;
@@ -29,7 +29,7 @@ public final class GenerationConfig {
     public static final double TREE_CHANCE_DARK_OAK = 0.5;
 
     /** Chance (0.0 - 1.0) de placer un sapin par bloc en Taiga */
-    public static final double TREE_CHANCE_TAIGA = 0.11;
+    public static final double TREE_CHANCE_TAIGA = 0.15;
 
     // NETTOYAGE LIQUIDES
 
@@ -62,6 +62,17 @@ public final class GenerationConfig {
     public static final int    LAPIS_SIZE           = 7;
     public static final int    LAPIS_CENTER_HEIGHT  = 16;
     public static final int    LAPIS_SPREAD         = 16;
+
+    // GROTTES
+
+    /** Active la generation de grottes supplementaires */
+    public static final boolean CAVES_ENABLED          = true;
+
+    /** Nombre de tentatives de generation par chunk (plus = plus de grottes potentielles) */
+    public static final int     CAVES_EXTRA_PASSES     = 5;
+
+    /** Chance (0-100) de generer une grotte a chaque tentative */
+    public static final int     CAVES_BOOST_PERCENTAGE = 70;
 
     // PERFORMANCE
 
