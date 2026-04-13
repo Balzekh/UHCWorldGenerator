@@ -4,11 +4,6 @@ Bienvenue dans **UHCWorldGenerator** !
 
 Ce projet est un generateur de monde UHC concu pour simplifier la pregeneration de mondes pour vos parties UHC. Il inclut des biomes specifiques : **Roofed Forest**, **Taiga** et **Plain**, sans lacs, afin de repondre aux besoins de ce type de jeu. Fini le stress de la pregen, tout est automatise et pret en un rien de temps.
 
----
-
-## Pourquoi UHCWorldGenerator ?
-
-Pregenerez une map UHC, ca peut vite devenir un cauchemar : configurer les biomes a la main, booster les minerais, nettoyer les lacs... Avec **UHCWorldGenerator**, tout ca se fait automatiquement. Vous posez le plugin, vous lancez le serveur, et en **moins d'une minute** votre map est prete. Simple, rapide, efficace.
 
 ---
 
